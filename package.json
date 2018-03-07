@@ -27,7 +27,6 @@
     "firebase": "^4.8.2",
     "flag-icon-css": "2.9.0",
     "font-awesome": "^4.7.0",
-    "moment": "^2.20.1",
     "simple-line-icons": "^2.4.1",
     "uuid": "^3.2.1",
     "vue": "2.5.13",

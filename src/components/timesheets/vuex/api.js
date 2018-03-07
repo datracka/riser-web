@@ -1,5 +1,5 @@
 import axios from 'axios'
-import moment from 'moment'
+// import moment from 'moment'
 
 const SERVER_URL = process.env.SERVER_URL || '82.223.35.243'
 
@@ -26,12 +26,12 @@ export const fetchTimesheets = (user, token) => {
       console.log('fetching timesheets...')
       let timesheets = res.data.timesheet
       Object.keys(timesheets).forEach(index => {
-        timesheets[index].start = new Date(
+        /*         timesheets[index].start = new Date(
           moment(timesheets[index].start).format('YYYY-MM-DD')
         )
         timesheets[index].end = new Date(
           moment(timesheets[index].end).format('YYYY-MM-DD')
-        )
+        ) */
       })
       return timesheets
     })

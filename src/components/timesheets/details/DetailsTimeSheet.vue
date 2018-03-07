@@ -8,7 +8,7 @@
 
 import Datepicker from 'vuejs-datepicker'
 import { mapActions, mapGetters } from 'vuex'
-import { moment } from '../../../filters'
+// import { moment } from '../../../filters'
 import DetailsTimeSheetForm from './DetailsTimeSheetForm'
 import DetailsTimeSheetSummary from './DetailsTimeSheetSummary'
 
@@ -19,9 +19,9 @@ export default {
     DetailsTimeSheetSummary,
     DetailsTimeSheetForm
   },
-  filters: {
+/*   filters: {
     moment
-  },
+  }, */
   data: () => {
       return {
         selectedTimesheet: {},
